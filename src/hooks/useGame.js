@@ -1,4 +1,4 @@
-// src/hooks/useGame.js
+
 import { useReducer } from 'react'
 
 const shipSizes = [5, 4, 3, 3, 2]
