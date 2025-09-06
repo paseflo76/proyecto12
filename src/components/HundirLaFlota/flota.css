@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-
+  min-height: 88svh;
   overflow: hidden;
   background: url('/assets/.hundir-img') no-repeat center center;
   background-size: cover;
