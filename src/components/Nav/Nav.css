@@ -1,0 +1,22 @@
+.nav-container {
+  width: 100%;
+  background-color: var(--color-cell-miss);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.enlaces {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1rem;
+
+  width: 100%;
+}
+.enlaces > a {
+  text-decoration: none;
+  color: rgb(15, 6, 6);
+  background-color: var(--color-card-cell);
+  border: solid 1px black;
+  padding: 5px;
+  border-radius: 5px;
+}
