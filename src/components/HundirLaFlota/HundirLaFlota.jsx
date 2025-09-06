@@ -1,4 +1,4 @@
-import './HundirLaFlota.css'
+import './HundirLaflota.css'
 import { useGameContext } from '../../hooks/GameContext.js'
 
 export default function HundirLaFlota() {
@@ -6,7 +6,7 @@ export default function HundirLaFlota() {
 
   return (
     <section className='game-container'>
-      <div>
+      <div className='contain-img'>
         <img
           src='/assets/hundir.png'
           alt='fondo hundir la flota'
