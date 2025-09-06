@@ -1,5 +1,5 @@
 import { useGameContext } from '../../hooks/GameContext.js'
-import './HundirLaflota.css'
+import './HundirLaFlota.css'
 
 export default function HundirLaFlota() {
   const { state, dispatch } = useGameContext()
