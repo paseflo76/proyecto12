@@ -4,6 +4,6 @@ import { GameContext } from './GameContext.js'
 import { useGame } from './useGame.js'
 
 export function GameProvider({ children }) {
-  const game = useGame() // useReducer aquí, instancia única para toda la app
+  const game = useGame() 
   return <GameContext.Provider value={game}>{children}</GameContext.Provider>
 }
