@@ -1,4 +1,3 @@
-import React from 'react'
 import { useBingo } from '../../hooks/useBingo'
 import CardCell from './CardCell.jsx'
 import './Bingo.css'
