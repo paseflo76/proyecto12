@@ -7,8 +7,8 @@
 .enlaces {
   display: flex;
   justify-content: space-evenly;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 15px;
+  padding: 15px;
 
   width: 100%;
 }

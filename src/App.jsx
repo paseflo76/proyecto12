@@ -1,7 +1,7 @@
 // src/App.jsx
 import { Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav/Nav'
-import HundirLaFlota from './components/HundirLaFlota/HundirLaFlota'
+import HundirLaFlota from './components/HundirLaFlota/HundirLaFlota.jsx'
 import Bingo from './components/Bingo/Bingo'
 import { GameProvider } from './hooks/GameProvider.jsx'
 import './App.css'
